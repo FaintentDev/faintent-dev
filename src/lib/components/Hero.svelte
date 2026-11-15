@@ -3,11 +3,11 @@
 </script>
 
 <section class="pt-8 pb-7 sm:pt-10" aria-labelledby="intro-heading">
-	<p class="flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-muted">
-		<span>{site.location}</span>
-		<span aria-hidden="true">·</span>
-		<span>{site.timezone}</span>
-		<span aria-hidden="true">·</span>
+	<p
+		class="flex flex-col gap-1 text-[13px] text-muted sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-2"
+	>
+		<span>{site.location} · {site.timezone}</span>
+		<span class="hidden sm:inline" aria-hidden="true">·</span>
 		<span class="inline-flex items-center gap-2 text-accent">
 			<span class="size-1.5 rounded-full bg-accent" aria-hidden="true"></span>
 			{site.availability}
