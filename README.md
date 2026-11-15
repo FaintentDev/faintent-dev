@@ -1,56 +1,40 @@
-# sv
+# faintent.dev
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Personal site for Jeremiah Earl — independent software engineer.
 
-## Creating a project
+Built with SvelteKit 3, Svelte 5, and Tailwind CSS 4. The site is fully prerendered as static files and deployed to Cloudflare Pages.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project
-npx sv create my-app
-```
-
-To recreate this project with the same configuration:
+## Development
 
 ```sh
-# recreate this project
-pnpm dlx sv@1.3.0 create --template minimal --types ts --add prettier eslint ai-tools="ide:opencode,claude-code+delivery:plugin+optInSkills:svelte-mcp-feedback" --install pnpm faintent-dev-spa
+pnpm install
+pnpm dev
 ```
 
-## Adding features
-
-Add features to your project with `sv add`:
+## Checks
 
 ```sh
-npx sv add
+pnpm check
+pnpm lint
+pnpm build
+pnpm preview
 ```
 
-For example, to add Tailwind CSS:
+`pnpm build` writes the static site to `build/`.
 
-```sh
-npx sv add tailwindcss
-```
+## Content
 
-## Developing
+- `src/lib/content/site.ts` — name, role, availability, links, intro, about, and capabilities
+- `src/lib/content/projects.ts` — project entries
+- `src/routes/layout.css` — Tailwind theme tokens and base styles
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Deploying to Cloudflare Pages
 
-```sh
-npm run dev
+Connect the repository to a Cloudflare Pages project with:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+- **Build command:** `pnpm build`
+- **Build output directory:** `build`
+- **Node.js version:** `24` (set `NODE_VERSION=24` if the default is older)
+- **Custom domain:** `faintent.dev`
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+No SPA fallback or rewrite rule is required. The root layout sets `prerender = true`, and the site is generated as static files at build time.
