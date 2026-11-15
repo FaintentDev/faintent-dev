@@ -1,12 +1,12 @@
 <script lang="ts">
+	import Capabilities from '#lib/components/Capabilities.svelte';
 	import Hero from '#lib/components/Hero.svelte';
+	import SelectedWork from '#lib/components/SelectedWork.svelte';
 </script>
 
 <Hero />
-
-<section id="work" aria-labelledby="work-heading" class="mb-8">
-	<h2 id="work-heading" class="text-[17px] font-bold">Selected work</h2>
-</section>
+<Capabilities />
+<SelectedWork />
 
 <section id="about" aria-labelledby="about-heading" class="mb-8">
 	<h2 id="about-heading" class="text-[17px] font-bold">About</h2>
