@@ -1,0 +1,5 @@
+#:schema node_modules/wrangler/config-schema.json
+
+name = "faintent-dev"
+pages_build_output_dir = "./build"
+compatibility_date = "2026-11-15"
