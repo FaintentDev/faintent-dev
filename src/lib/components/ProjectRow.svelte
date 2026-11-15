@@ -31,7 +31,7 @@
 						class="text-accent underline decoration-accent/40 transition-colors hover:text-accent-bright"
 						href={link.href}
 						target="_blank"
-						rel="noopener noreferrer"
+						rel="external noopener noreferrer"
 					>
 						{link.label} <span aria-hidden="true">↗</span>
 					</a>

@@ -22,7 +22,7 @@
 				class="text-accent underline decoration-accent/40 transition-colors hover:text-accent-bright"
 				href={site.github}
 				target="_blank"
-				rel="me noopener noreferrer"
+				rel="external me noopener noreferrer"
 			>
 				GitHub <span aria-hidden="true">↗</span>
 			</a>

@@ -41,9 +41,3 @@ export const capabilities = [
 			'Fast systems behind focused interfaces. Small installs, quick feedback, no unnecessary weight.'
 	}
 ] as const;
-
-export const navigation = [
-	{ label: 'Work', href: '#work' },
-	{ label: 'About', href: '#about' },
-	{ label: 'Contact', href: '#contact' }
-] as const;

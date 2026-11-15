@@ -39,7 +39,8 @@ export const projects: readonly Project[] = [
 	{
 		name: 'RoofRadar',
 		monogram: 'RR',
-		summary: 'A lead discovery and outreach system for roofing companies, built for faster outreach.',
+		summary:
+			'A lead discovery and outreach system for roofing companies, built for faster outreach.',
 		status: 'Private',
 		role: 'Founder & sole developer',
 		tags: ['Rust', 'Automation'],
