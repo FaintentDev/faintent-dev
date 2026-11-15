@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<meta name="theme-color" content="#0b0b0b" />
+		<meta name="color-scheme" content="dark" />
+		<title>404 — Page not found · Jeremiah Earl</title>
+		<style>
+			:root {
+				color-scheme: dark;
+				--bg: #0b0b0b;
+				--fg: #eeeeea;
+				--body: #bdbdb7;
+				--muted: #989893;
+				--line: #383834;
+				--accent: #a6ce87;
+				--accent-bright: #c7e8ad;
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				margin: 0;
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 1.5rem;
+				background: var(--bg);
+				color: var(--fg);
+				font-family:
+					'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+					'Liberation Mono', 'Courier New', monospace;
+				font-size: 15px;
+				line-height: 1.7;
+				-webkit-font-smoothing: antialiased;
+			}
+
+			main {
+				width: 100%;
+				max-width: 40rem;
+			}
+
+			.crumbs {
+				display: flex;
+				align-items: baseline;
+				gap: 0.75rem;
+				padding-bottom: 1rem;
+				border-bottom: 1px solid var(--line);
+			}
+
+			.brand {
+				color: var(--fg);
+				font-weight: 700;
+				letter-spacing: -0.025em;
+				text-decoration: none;
+			}
+
+			.brand:hover {
+				color: var(--accent);
+			}
+
+			.status {
+				color: var(--muted);
+				font-size: 13px;
+			}
+
+			h1 {
+				margin: 2rem 0 0;
+				font-size: clamp(2.5rem, 10vw, 4.5rem);
+				line-height: 1;
+				font-weight: 400;
+				letter-spacing: -0.04em;
+			}
+
+			h1 span {
+				display: block;
+				margin-top: 0.75rem;
+				font-size: 1.05rem;
+				letter-spacing: -0.01em;
+				color: var(--fg);
+			}
+
+			p {
+				max-width: 34rem;
+				margin: 1.25rem 0 0;
+				color: var(--body);
+			}
+
+			nav {
+				margin-top: 2rem;
+				padding-top: 1.25rem;
+				border-top: 1px solid var(--line);
+			}
+
+			ul {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5rem 1.25rem;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			a:not(.brand) {
+				color: var(--accent);
+				text-underline-offset: 3px;
+				text-decoration-color: rgba(166, 206, 135, 0.4);
+			}
+
+			a:not(.brand):hover {
+				color: var(--accent-bright);
+			}
+
+			:focus-visible {
+				outline: 2px solid var(--accent);
+				outline-offset: 4px;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<div class="crumbs">
+				<a class="brand" href="/">faintent</a>
+				<span class="status">Jeremiah Earl</span>
+			</div>
+
+			<h1>404 <span>This page doesn't exist.</span></h1>
+
+			<p>
+				The URL may be mistyped, or the page may have moved. Everything worth seeing is back on the
+				homepage.
+			</p>
+
+			<nav aria-label="Helpful links">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/#work">Work</a></li>
+					<li><a href="/#about">About</a></li>
+					<li><a href="/#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</main>
+	</body>
+</html>

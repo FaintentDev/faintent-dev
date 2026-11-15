@@ -20,7 +20,7 @@
 		<li>
 			<a
 				class="text-accent underline decoration-accent/40 transition-colors hover:text-accent-bright"
-				href={`mailto:${site.email}`}
+				href={`mailto:${site.companyEmail}`}
 			>
 				{site.companyEmail}
 			</a>
