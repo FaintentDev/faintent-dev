@@ -10,13 +10,13 @@
 		<li>
 			<a
 				class="transition-colors hover:text-accent"
-				href={site.github}
+				href={site.portfolioRepo}
 				target="_blank"
 				rel="external me noopener noreferrer"
 			>
-				GitHub <span aria-hidden="true">↗</span>
+				source
 			</a>
 		</li>
-		<li>Built with SvelteKit</li>
+		<li>built with SvelteKit</li>
 	</ul>
 </footer>

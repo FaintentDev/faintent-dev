@@ -30,8 +30,8 @@ export const projects: readonly Project[] = [
 		name: 'CollectiBull',
 		monogram: 'CB',
 		summary:
-			'Marketplace intelligence for trading card games, built to surface profitable card-flipping opportunities.',
-		status: 'Private',
+			'Marketplace intelligence for trading card games, built to uncover profitable card-flipping opportunities.',
+		status: 'Private (Public version soon)',
 		role: 'Founder & sole developer',
 		tags: ['Rust', 'Data', 'Automation'],
 		links: []
@@ -41,7 +41,7 @@ export const projects: readonly Project[] = [
 		monogram: 'RR',
 		summary:
 			'A lead discovery and outreach system for roofing companies, built for faster outreach.',
-		status: 'Private',
+		status: 'Private (Public demo soon)',
 		role: 'Founder & sole developer',
 		tags: ['Rust', 'Automation'],
 		links: []

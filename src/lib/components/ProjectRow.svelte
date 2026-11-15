@@ -18,7 +18,7 @@
 			<span class="text-xs text-muted">{project.status}</span>
 		</div>
 
-		<p class="mt-1 max-w-[720px] text-sm text-body">{project.summary}</p>
+		<p class="mt-1 max-w-180 text-sm text-body">{project.summary}</p>
 
 		<div
 			class="mt-2 flex flex-col gap-1 text-xs text-muted sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-2"

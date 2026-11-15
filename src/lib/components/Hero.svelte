@@ -9,7 +9,6 @@
 		<span>{site.location} · {site.timezone}</span>
 		<span class="hidden sm:inline" aria-hidden="true">·</span>
 		<span class="inline-flex items-center gap-2 text-accent">
-			<span class="size-1.5 rounded-full bg-accent" aria-hidden="true"></span>
 			{site.availability}
 		</span>
 	</p>
@@ -22,7 +21,7 @@
 	</h1>
 	<p class="mt-1 text-sm text-muted sm:text-[15px]">{site.role}</p>
 
-	<p class="mt-4 max-w-[720px] text-body">{intro}</p>
+	<p class="mt-4 max-w-180 text-body">{intro}</p>
 
 	<ul class="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm">
 		<li>

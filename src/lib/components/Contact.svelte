@@ -6,7 +6,7 @@
 <section id="contact" class="mb-8" aria-labelledby="contact-heading">
 	<SectionHeading id="contact-heading" title="Contact" />
 
-	<p class="mt-2 max-w-[720px] text-sm text-body">{contactCopy}</p>
+	<p class="mt-2 max-w-180 text-sm text-body">{contactCopy}</p>
 
 	<ul class="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm">
 		<li>
@@ -20,11 +20,9 @@
 		<li>
 			<a
 				class="text-accent underline decoration-accent/40 transition-colors hover:text-accent-bright"
-				href={site.github}
-				target="_blank"
-				rel="external me noopener noreferrer"
+				href={`mailto:${site.email}`}
 			>
-				GitHub <span aria-hidden="true">↗</span>
+				{site.companyEmail}
 			</a>
 		</li>
 	</ul>
