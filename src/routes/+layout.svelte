@@ -43,7 +43,7 @@
 
 <div id="top" class="mx-auto flex min-h-screen w-full max-w-[960px] flex-col px-4 sm:px-6">
 	<Nav />
-	<main id="main" class="flex-1">
+	<main id="main" tabindex="-1" class="flex-1">
 		{@render children()}
 	</main>
 	<Footer />
