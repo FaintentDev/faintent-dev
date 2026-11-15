@@ -16,6 +16,14 @@ export const site = {
 export const intro =
 	'I build privately owned automation and software products, full-time. Rust on the back end, Svelte on the front.';
 
+export const about = [
+	'I’m Jeremiah Earl, an independent software engineer based in Florida. I build and run my own software products full-time.',
+	'Most of my work sits where automation, data, and interfaces meet. I like systems that remove manual work and quietly do their job: small installs, fast feedback, and software that earns its keep.'
+] as const;
+
+export const contactCopy =
+	'Have a problem worth automating? I’m available for freelance and contract work.';
+
 export const capabilities = [
 	{
 		title: 'Products, end to end',
