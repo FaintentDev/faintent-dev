@@ -10,16 +10,16 @@ export const site = {
 	github: 'https://github.com/FaintentDev',
 	portfolioRepo: 'https://github.com/FaintentDev/faintent-dev',
 	url: 'https://faintent.dev',
-	title: 'Jeremiah Earl (THE faintent)',
+	title: 'Jeremiah Earl (faintent)',
 	description:
-		'Jeremiah Earl (aka FaintentDev) is an entrepreneurial, independent software engineer in Florida. With Minecraft launchers to marketplace scrapers, I build and operate my own software products full-time.'
+		'Jeremiah Earl (faintent) is an entrepreneurial, independent software engineer in Florida. Have work? Contact me today.'
 } as const;
 
 export const intro =
 	'An ambitious, full-time software engineer. Self-taught, detail-oriented, growth-driven and a lifelong learner.';
 
 export const about = [
-	"I'm Jeremiah Earl, a highly-adequate maker of things. Building applications & software has been a long-time enjoyment for me, and I absolutely love the taste of a well-made product.",
+	"I'm Jeremiah Earl, a highly-adequate maker of things. With Minecraft launchers to marketplace scrapers, I build and operate my own software products full-time. Building applications & software has been a long-time enjoyment for me, and I absolutely love the taste of a well-made product.",
 	"Self-motivated & inspired, I create my apps because not only does it add a bit of money to my paycheck, but I'm able to bring a valid (sometimes opiniated) solution to the table, before any product like it ever existed."
 ] as const;
 
